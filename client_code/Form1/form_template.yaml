@@ -10,8 +10,8 @@ components:
   components:
   - type: Label
     properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
-      visible: true, text: Join the best Gym in the Town, font_size: 28, font: '',
-      spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+      visible: true, text: Join the best Coaching Institute in Your Town, font_size: 28,
+      font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
       background: '', bold: false, underline: false, icon: ''}
     name: label_8
     layout_properties: {grid_position: 'BBCLVX,SHILYF'}
@@ -30,33 +30,61 @@ components:
     name: text_box_1
     layout_properties: {grid_position: 'SKUZJG,UIDLCT'}
   - type: Label
+    properties: {role: input-prompt, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Enter Your Mobile Number, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+      underline: false, icon: ''}
+    name: label_2
+    layout_properties: {grid_position: 'VDKFKC,XAYZSP'}
+  - type: TextBox
+    properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: Enter Your Mobile No,
+      border: '', enabled: true, foreground: '', visible: true, text: '', font_size: null,
+      font: '', spacing_above: small, type: text, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false}
+    name: text_box_2
+    layout_properties: {grid_position: 'XBQMFF,OEBSUY'}
+  - type: Label
     properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
-      visible: true, text: Enter Your Weight, font_size: null, font: '', spacing_above: small,
+      visible: true, text: 'In Which class do you want to take Admission ?', font_size: null,
+      font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false, icon: ''}
+    name: label_9
+    layout_properties: {grid_position: 'SWLSMD,MNYEKB'}
+  - type: TextBox
+    properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: Enter Your Class,
+      border: '', enabled: true, foreground: '', visible: true, text: '', font_size: null,
+      font: '', spacing_above: small, type: text, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false}
+    name: text_box_4
+    layout_properties: {grid_position: 'FJEYUD,BPKDGO'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Enter Your Age, font_size: null, font: '', spacing_above: small,
       icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
       underline: false, icon: ''}
     name: label_3
-    layout_properties: {grid_position: 'VBPYAB,LXXDDB'}
+    layout_properties: {grid_position: 'KQLRVB,UYUYXG'}
   - type: TextBox
-    properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: Weight,
+    properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: Age,
       border: '', enabled: true, foreground: '', visible: true, text: '', font_size: null,
       font: '', spacing_above: small, type: text, spacing_below: small, italic: false,
       background: '', bold: false, underline: false}
     name: text_box_3
     layout_properties: {grid_position: 'NMSSAZ,GCDSAA'}
+  - type: TextBox
+    properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: Enter Your Full Address,
+      border: '', enabled: true, foreground: '', visible: true, text: '', font_size: null,
+      font: '', spacing_above: small, type: text, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false}
+    name: text_box_5
+    layout_properties: {grid_position: 'JORCRZ,MVYELF'}
   - type: Label
     properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
-      visible: true, text: Your Address, font_size: null, font: '', spacing_above: small,
+      visible: true, text: Enter Your Address, font_size: null, font: '', spacing_above: small,
       icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
       underline: false, icon: ''}
     name: label_7
     layout_properties: {grid_position: 'JORCRZ,JXMPNH'}
-  - type: TextArea
-    properties: {role: null, align: left, height: '', tooltip: '', placeholder: '',
-      border: '', enabled: true, foreground: '', visible: true, text: Your Your Full Address,
-      font_size: null, auto_expand: false, font: '', spacing_above: small, spacing_below: small,
-      italic: false, background: '', bold: false, underline: false}
-    name: text_area_1
-    layout_properties: {grid_position: 'HOCXQI,RKCUHL'}
   - type: Label
     properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
       visible: true, text: 'Do You need personal training ?', font_size: 20, font: '',
@@ -107,8 +135,8 @@ components:
     layout_properties: {}
 - type: Label
   properties: {role: null, align: left, tooltip: '', border: '', foreground: '', visible: true,
-    text: Gym Fitness, font_size: null, font: '', spacing_above: small, icon_align: left,
-    spacing_below: small, italic: false, background: '', bold: false, underline: false,
-    icon: ''}
+    text: CAREER LAUNCHER CLASSES, font_size: null, font: '', spacing_above: small,
+    icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+    underline: false, icon: ''}
   name: label_5
   layout_properties: {slot: title}
