@@ -15,10 +15,12 @@ class Form1(Form1Template):
   def outlined_button_2_click(self, **event_args):
     """This method is called when the button is clicked"""
     name=self.text_box_1.text
-    weight=int(self.text_box_3.text)
-    address=self.text_area_1.text
+    mobile=int(self.text_box_2.text)
+    clas=int(self.text_box_4.text)
+    age=int(self.text_box_4.text)
+    address=self.text_box_5.text
     personal=self.check_box_1.checked
-    anvil.server.call('submit', name=name, address=address, weight=weight, personal=personal)
+    anvil.server.call('submit', name=name, address=address, age=age, clas=clas, mobile=mobile, personal=personal)
     Notification("Your response has been recorded").show()
     
 

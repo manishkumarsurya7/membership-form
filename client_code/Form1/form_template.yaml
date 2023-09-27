@@ -23,7 +23,7 @@ components:
     name: label_1
     layout_properties: {grid_position: 'IREZHT,HPMDBM'}
   - type: TextBox
-    properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: Your Name,
+    properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: Enter Your Name,
       border: '', enabled: true, foreground: '', visible: true, text: '', font_size: null,
       font: '', spacing_above: small, type: text, spacing_below: small, italic: false,
       background: '', bold: false, underline: false}
@@ -44,10 +44,10 @@ components:
     name: text_box_2
     layout_properties: {grid_position: 'XBQMFF,OEBSUY'}
   - type: Label
-    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+    properties: {role: input-prompt, align: left, tooltip: '', border: '', foreground: '',
       visible: true, text: 'In Which class do you want to take Admission ?', font_size: null,
       font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
-      background: '', bold: false, underline: false, icon: ''}
+      background: '', bold: true, underline: false, icon: ''}
     name: label_9
     layout_properties: {grid_position: 'SWLSMD,MNYEKB'}
   - type: TextBox
@@ -71,6 +71,13 @@ components:
       background: '', bold: false, underline: false}
     name: text_box_3
     layout_properties: {grid_position: 'NMSSAZ,GCDSAA'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Enter Your Address, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+      underline: false, icon: ''}
+    name: label_7
+    layout_properties: {grid_position: 'DFERDC,QNEEOX'}
   - type: TextBox
     properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: Enter Your Full Address,
       border: '', enabled: true, foreground: '', visible: true, text: '', font_size: null,
@@ -78,13 +85,6 @@ components:
       background: '', bold: false, underline: false}
     name: text_box_5
     layout_properties: {grid_position: 'JORCRZ,MVYELF'}
-  - type: Label
-    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
-      visible: true, text: Enter Your Address, font_size: null, font: '', spacing_above: small,
-      icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
-      underline: false, icon: ''}
-    name: label_7
-    layout_properties: {grid_position: 'JORCRZ,JXMPNH'}
   - type: Label
     properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
       visible: true, text: 'Do You need personal training ?', font_size: 20, font: '',

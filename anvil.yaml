@@ -14,7 +14,7 @@ runtime_options: {version: 2, client_version: '3', server_version: python3-sandb
 metadata: {title: Join our gym your personal fitness, description: Gym Membership Website}
 startup_form: Form1
 db_schema:
-  gym:
+  clc:
     client: none
     server: full
     columns:
@@ -24,11 +24,17 @@ db_schema:
     - name: address
       admin_ui: {width: 200, order: 1}
       type: string
-    - name: weight
-      admin_ui: {width: 200, order: 2}
-      type: number
     - name: personal
       admin_ui: {width: 200, order: 3}
       type: bool
-    title: Gym
+    - name: mobile
+      admin_ui: {width: 200, order: 4}
+      type: number
+    - name: clas
+      admin_ui: {order: 5, width: 200}
+      type: number
+    - name: age
+      admin_ui: {width: 200, order: 6}
+      type: number
+    title: clc
 renamed: true

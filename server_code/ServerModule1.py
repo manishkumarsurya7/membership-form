@@ -18,7 +18,7 @@ import anvil.server
 #
 
 @anvil.server.callable
-def submit(name, weight, address, personal):
-  app_tables.gym.add_row(name=name, address=address, weight=weight, personal=personal)
+def submit(name, mobile, clas, age, address, personal):
+  app_tables.clc.add_row(name=name, address=address, age=age, clas=clas, mobile=mobile, personal=personal)
   anvil.email.send(t0="kumargautam8666@gmail.com", subject="Your response from anvil app", 
-                   text="Feedback from {name}: weight is {weight} and they live at: {address}. personal training: {personal}")
+                   text="Feedback from {name}: your age is {age}: clas is{clas}: mobile no is{mobile} and they live at: {address}. personal training: {personal}")
