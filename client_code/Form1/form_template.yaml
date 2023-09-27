@@ -22,6 +22,17 @@ components:
       background: '', bold: false, underline: false}
     name: text_box_1
     layout_properties: {grid_position: 'SKUZJG,UIDLCT'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: '', font_size: null, font: '20', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_2
+    layout_properties: {grid_position: 'WXQOAV,FSWZHK'}
+  - type: TextBox
+    properties: {}
+    name: text_box_2
+    layout_properties: {grid_position: 'AKSBJL,UHDZKB'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
