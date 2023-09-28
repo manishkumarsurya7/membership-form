@@ -6,9 +6,9 @@ services:
 - source: /runtime/services/anvil/email.yml
   client_config: {}
   server_config: {}
-package_name: Membership_Form
+package_name: CLC
 allow_embedding: false
-name: Membership Form
+name: CLC
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
 metadata: {title: Join our gym your personal fitness, description: Gym Membership Website}
