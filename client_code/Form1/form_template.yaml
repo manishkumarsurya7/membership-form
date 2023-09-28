@@ -45,13 +45,13 @@ components:
     layout_properties: {grid_position: 'XBQMFF,OEBSUY'}
   - type: Label
     properties: {role: input-prompt, align: left, tooltip: '', border: '', foreground: '',
-      visible: true, text: 'In Which class do you want to take Admission ?', font_size: null,
+      visible: true, text: 'In Which course do you want to take Admission ?', font_size: null,
       font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
       background: '', bold: true, underline: false, icon: ''}
     name: label_9
     layout_properties: {grid_position: 'SWLSMD,MNYEKB'}
   - type: TextBox
-    properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: Enter Your Class,
+    properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: Enter Your Course,
       border: '', enabled: true, foreground: '', visible: true, text: '', font_size: null,
       font: '', spacing_above: small, type: text, spacing_below: small, italic: false,
       background: '', bold: false, underline: false}
