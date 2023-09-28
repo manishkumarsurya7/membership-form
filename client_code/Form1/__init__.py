@@ -16,7 +16,7 @@ class Form1(Form1Template):
     """This method is called when the button is clicked"""
     name=self.text_box_1.text
     mobile=int(self.text_box_2.text)
-    classes=self.text_box_4.text
+    clas=int(self.text_box_4.text)
     age=int(self.text_box_4.text)
     address=self.text_box_5.text
     personal=self.check_box_1.checked
