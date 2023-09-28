@@ -30,11 +30,11 @@ db_schema:
     - name: mobile
       admin_ui: {width: 200, order: 4}
       type: number
-    - name: clas
-      admin_ui: {order: 5, width: 200}
-      type: number
     - name: age
       admin_ui: {width: 200, order: 6}
       type: number
+    - name: clas
+      admin_ui: {width: 200, order: 7}
+      type: string
     title: clc
 renamed: true
