@@ -11,7 +11,8 @@ allow_embedding: false
 name: CLC
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
-metadata: {title: Join our gym your personal fitness, description: Gym Membership Website}
+metadata: {title: Join the best Coaching Institute, description: Career Launcher Classes,
+  logo_img: 'asset:CLC-Logo.png'}
 startup_form: Form1
 db_schema:
   career_launcher_classes:
