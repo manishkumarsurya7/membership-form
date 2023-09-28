@@ -20,7 +20,7 @@ class Form1(Form1Template):
     age=int(self.text_box_4.text)
     address=self.text_box_5.text
     personal=self.check_box_1.checked
-    anvil.server.call('submit', name=name, address=address, age=age, classes=classes, mobile=mobile, personal=personal)
+    anvil.server.call('submit', name=name, address=address, age=age, clas=clas, mobile=mobile, personal=personal)
     Notification("Your response has been recorded").show()
     
 
