@@ -14,7 +14,7 @@ runtime_options: {version: 2, client_version: '3', server_version: python3-sandb
 metadata: {title: Join our gym your personal fitness, description: Gym Membership Website}
 startup_form: Form1
 db_schema:
-  career_launcher_classes:
+  clc:
     client: none
     server: full
     columns:
@@ -36,5 +36,5 @@ db_schema:
     - name: personal
       admin_ui: {width: 200, order: 10}
       type: bool
-    title: CAREER LAUNCHER CLASSES
+    title: clc
 renamed: true
