@@ -1,7 +1,4 @@
 import anvil.email
-import anvil.tables as tables
-import anvil.tables.query as q
-from anvil.tables import app_tables
 import anvil.server
 
 # This is a server module. It runs on the Anvil server,
@@ -19,6 +16,6 @@ import anvil.server
 
 @anvil.server.callable
 def submit(name, mobile, clas, age, address, personal):
-  app_tables.CAREER LAUNCHERCLASSES.add_row(name=name, address=address, age=age, clas=clas, mobile=mobile, personal=personal)
+  app_tables.clc.add_row(name=name, address=address, age=age, clas=clas, mobile=mobile, personal=personal)
   anvil.email.send(to="kumargautam8666@gmail.com", subject="Your response from anvil app", 
                    text="Feedback from {name}: your age is {age}: clas{clas}: mobile no is{mobile} and they live at: {address}. personal training: {personal}")
